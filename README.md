@@ -36,7 +36,7 @@ You can use tools like `curl` or Postman to test the API.
 Example with `curl`:
 ```bash
 curl -X POST http://localhost:8000/api/summarize/ -F 'file=@/path/to/your/file.pdf'
-
+```
 
 ### Final Notes
 
