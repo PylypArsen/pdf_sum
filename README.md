@@ -39,7 +39,7 @@ curl -X POST http://localhost:8000/api/summarize/ -F 'file=@/path/to/your/file.p
 
 ### Final Notes
 
-- Ensure you replace `'your-openai-api-key' in`'settings.py'` with your actual OpenAI API key.
+- Ensure you replace `'your-openai-api-key' in `'settings.py' with your actual OpenAI API key.
 - This setup uses `gpt-3.5-turbo` as the engine, which may need to be updated based on your OpenAI subscription or usage requirements.
 
 This guide covers the essential steps to create and deploy a containerized Django application for summarizing PDF files using the OpenAI API. You can further enhance the project by adding authentication, validation, and other necessary features based on your needs.
