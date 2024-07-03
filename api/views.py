@@ -7,7 +7,6 @@ from PyPDF2 import PdfReader
 import io
 from pdf_summary import settings
 
-openai.api_key = settings.API_KEY
 
 class SummarizePDF(APIView):
     parser_classes = (MultiPartParser, FormParser)
