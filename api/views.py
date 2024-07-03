@@ -27,7 +27,7 @@ class SummarizePDF(APIView):
                 page = pdf_reader.pages[0]
                 page_text = page.extract_text()
             
-            client = openai.OpenAI(api_key=KEY)
+            client = openai.OpenAI(api_key=settings.API_KEY)
 
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
