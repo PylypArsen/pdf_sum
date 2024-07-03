@@ -22,7 +22,7 @@ This is a simple Django REST Framework API that allows users to upload a 1-page 
 
 2. Build and run the Docker container:
     ```bash
-    cd pdf_summary
+    cd pdf_sum
     docker-compose build
     docker-compose up
     ```
