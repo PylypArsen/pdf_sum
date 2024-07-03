@@ -18,7 +18,6 @@ This is a simple Django REST Framework API that allows users to upload a 1-page 
 1. Clone the repository:
     ```bash
     git clone https://github.com/PylypArsen/pdf_sum
-    cd pdf_summary
     ```
 
 2. Build and run the Docker container:
